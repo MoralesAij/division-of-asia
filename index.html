@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Division of Asia - Digital Magazine</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollBar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#cover-page" class="logo">Division of <span>Asia</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#toc">Contents</a></li>
+                <li><a href="#introduction">Intro</a></li>
+                <li><a href="#central-asia">Central</a></li>
+                <li><a href="#western-asia">Western</a></li>
+                <li><a href="#east-asia">East</a></li>
+                <li><a href="#south-asia">South</a></li>
+                <li><a href="#southeast-asia">Southeast</a></li>
+            </ul>
+            <div class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= COVER PAGE / HERO SECTION ================= -->
+    <section id="cover-page" class="cover-hero">
+        <div class="hero-bg" style="background-image: url('./images/asia-cover.jpeg');"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <span class="eyebrow fade-up text-gold">A Digital Visual Dictionary</span>
+            <h1 class="hero-title fade-up delay-1">Division of Asia</h1>
+            <h2 class="hero-subtitle fade-up delay-2">A Digital Visual Dictionary of Asian Cultures, Traditions,
+                Geography, and Heritage</h2>
+
+            <div class="student-info fade-up delay-3">
+                <div class="info-card-cover">
+                    <p><strong>Student Name:</strong> Ynnah Morales</p>
+                    <p><strong>Course & Section:</strong> SSM104 1CEDSB</p>
+                    <p><strong>Subject:</strong> Asian Studies</p>
+                    <p><strong>Instructor:</strong> Celestino Millanes</p>
+                    <p><strong>Date of Submission:</strong> <span id="current-date"></span></p>
+                </div>
+            </div>
+
+            <a href="#toc" class="btn-primary fade-up delay-4">Explore the Divisions of Asia <i
+                    class="fas fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+    <!-- ================= TABLE OF CONTENTS ================= -->
+    <section id="toc" class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center scroll-reveal">
+                <span class="eyebrow text-crimson">Navigation</span>
+                <h2 class="section-title text-navy">Table of <span>Contents</span></h2>
+            </div>
+
+            <div class="toc-grid">
+                <a href="#introduction" class="toc-card scroll-reveal delay-1">
+                    <div class="toc-num">01</div>
+                    <div class="toc-text">Introduction</div>
+                </a>
+                <a href="#central-asia" class="toc-card scroll-reveal delay-2">
+                    <div class="toc-num">02</div>
+                    <div class="toc-text">Central Asia</div>
+                </a>
+                <a href="#western-asia" class="toc-card scroll-reveal delay-3">
+                    <div class="toc-num">03</div>
+                    <div class="toc-text">Western Asia</div>
+                </a>
+                <a href="#east-asia" class="toc-card scroll-reveal delay-4">
+                    <div class="toc-num">04</div>
+                    <div class="toc-text">East Asia</div>
+                </a>
+                <a href="#south-asia" class="toc-card scroll-reveal delay-5">
+                    <div class="toc-num">05</div>
+                    <div class="toc-text">South Asia</div>
+                </a>
+                <a href="#southeast-asia" class="toc-card scroll-reveal delay-6">
+                    <div class="toc-num">06</div>
+                    <div class="toc-text">Southeast Asia</div>
+                </a>
+                <a href="#conclusion" class="toc-card scroll-reveal delay-7">
+                    <div class="toc-num">07</div>
+                    <div class="toc-text">Conclusion</div>
+                </a>
+                <a href="#references" class="toc-card scroll-reveal delay-8">
+                    <div class="toc-num">08</div>
+                    <div class="toc-text">References</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= INTRODUCTION PAGE ================= -->
+    <section id="introduction" class="section-padding">
+        <div class="container">
+            <div class="magazine-split">
+                <div class="mag-text scroll-reveal">
+                    <span class="eyebrow text-crimson">Preface</span>
+                    <h2 class="section-title text-navy">Understanding <span>Asia</span></h2>
+                    <p class="drop-cap">A visual dictionary is a learning tool that uses images and visual
+                        representations to explain concepts, cultures, and regions. In this academic compilation, we
+                        explore the Five Divisions of Asia through an immersive, visual storytelling approach.</p>
+                    <p>Studying the five divisions of Asia is crucial because it is the largest and most populous
+                        continent on Earth. It is a cradle of civilization that has profoundly shaped human history.
+                        Asia is incredibly diverse, encompassing distinct variations in:</p>
+                    <ul class="mag-list">
+                        <li><strong>Geography:</strong> From the icy Siberian tundra to the tropical rainforests of the
+                            Southeast and the arid deserts of the West.</li>
+                        <li><strong>Religion:</strong> The birthplace of major world religions including Hinduism,
+                            Buddhism, Islam, Christianity, and Judaism.</li>
+                        <li><strong>Traditions & Culture:</strong> An endless tapestry of ancient customs blending
+                            seamlessly with rapid modern development.</li>
+                        <li><strong>Language:</strong> Home to thousands of languages belonging to diverse linguistic
+                            families.</li>
+                        <li><strong>Food & Clothing:</strong> Distinct culinary practices and traditional attire that
+                            reflect historical and environmental adaptations.</li>
+                    </ul>
+                </div>
+                <div class="mag-image-container scroll-reveal right">
+                    <div class="mag-collage">
+                        <img src="./images/asia-culture.jpeg" alt="Asian Culture" class="collage-1">
+                        <img src="./images/asia-landmarks.jpeg" alt="Asian Landmarks" class="collage-2">
+                        <img src="./images/asia-heritage.jpeg" alt="Asian Heritage" class="collage-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Divider -->
+    <div class="section-divider"></div>
+
+    <!-- ================= CENTRAL ASIA SECTION ================= -->
+    <section id="central-asia" class="division-section central-theme">
+        <div class="div-banner" style="background-image: url('./images/kazakhstan-steppe.jpeg');">
+            <div class="div-banner-overlay"></div>
+            <h2 class="div-title scroll-reveal">Central Asia</h2>
+            <p class="div-subtitle scroll-reveal delay-1">The Heart of the Silk Road</p>
+        </div>
+
+        <div class="container section-padding">
+            <div class="div-intro scroll-reveal">
+                <p>Central Asia is characterized by its vast steppes, towering mountains, and rich nomadic history. It
+                    served as the historic crossroad of the Silk Road, bridging the East and West. The region embraces
+                    strong Islamic influences blended with an ancient horse culture and traditional desert-inspired
+                    lifestyles.</p>
+            </div>
+
+            <div class="entry-grid">
+                <!-- Entry 1 -->
+                <div class="entry-card scroll-reveal">
+                    <div class="entry-img">
+                        <img src="./images/silk-road.jpeg" alt="Silk Road">
+                        <span class="region-label">Historical Route</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>The Silk Road</h3>
+                        <p>An ancient network of trade routes connecting the East and West, facilitating cultural,
+                            economic, and political exchanges across centuries.</p>
+                    </div>
+                </div>
+                <!-- Entry 2 -->
+                <div class="entry-card scroll-reveal delay-1">
+                    <div class="entry-img">
+                        <img src="./images/kazakhstan-steppe.jpeg" alt="Kazakhstan Steppe">
+                        <span class="region-label">Geography</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Kazakhstan Steppe</h3>
+                        <p>A vast region of open grassland covering much of Kazakhstan, historically essential for the
+                            survival of nomadic tribes and horse breeding.</p>
+                    </div>
+                </div>
+                <!-- Entry 3 -->
+                <div class="entry-card scroll-reveal delay-2">
+                    <div class="entry-img">
+                        <img src="./images/yurts.jpeg" alt="Yurts">
+                        <span class="region-label">Architecture</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Traditional Yurts</h3>
+                        <p>A portable, round tent covered with skins or felt and used as a dwelling by several distinct
+                            nomadic groups in the steppes of Central Asia.</p>
+                    </div>
+                </div>
+                <!-- Entry 4 -->
+                <div class="entry-card scroll-reveal">
+                    <div class="entry-img">
+                        <img src="./images/nomadic-culture.jpeg" alt="Nomadic Culture">
+                        <span class="region-label">Tradition</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Nomadic Culture</h3>
+                        <p>A lifestyle centered around animal husbandry and seasonal migration, featuring rich oral
+                            traditions, distinct clothing, and hearty regional foods.</p>
+                    </div>
+                </div>
+                <!-- Entry 5 -->
+                <div class="entry-card scroll-reveal delay-1">
+                    <div class="entry-img">
+                        <img src="./images/tien-shan.jpeg" alt="Tien Shan Mountains">
+                        <span class="region-label">Landmark</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Tien Shan Mountains</h3>
+                        <p>Meaning the 'Mountains of Heaven', this large system of mountain ranges stretches across
+                            Central Asia, renowned for breathtaking alpine scenery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= WESTERN ASIA SECTION ================= -->
+    <section id="western-asia" class="division-section western-theme">
+        <div class="div-banner" style="background-image: url('./images/arabian-peninsula.jpeg');">
+            <div class="div-banner-overlay"></div>
+            <h2 class="div-title scroll-reveal">Western Asia</h2>
+            <p class="div-subtitle scroll-reveal delay-1">Cradle of Civilization</p>
+        </div>
+
+        <div class="container section-padding">
+            <div class="div-intro scroll-reveal">
+                <p>Often referred to as the Middle East, Western Asia is defined by arid desert landscapes, enormous oil
+                    resources, and deep historical significance. It is home to ancient Mesopotamia, the origins of major
+                    Abrahamic religions, elegant Islamic geometric patterns, and vibrant traditional markets.</p>
+            </div>
+
+            <div class="entry-grid">
+                <div class="entry-card scroll-reveal">
+                    <div class="entry-img">
+                        <img src="./images/mesopotamia.jpeg" alt="Mesopotamia">
+                        <span class="region-label">History</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Mesopotamia</h3>
+                        <p>Known as the cradle of civilization, this historical region between the Tigris and Euphrates
+                            rivers saw the birth of early urban societies and writing.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-1">
+                    <div class="entry-img">
+                        <img src="./images/arabian-peninsula.jpeg" alt="Arabian Peninsula">
+                        <span class="region-label">Geography</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Arabian Peninsula</h3>
+                        <p>The world's largest peninsula, defined by its vast deserts, strategic position, rich oil
+                            resources, and historic Bedouin traditions.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-2">
+                    <div class="entry-img">
+                        <img src="./images/persian-gulf.jpeg" alt="Persian Gulf">
+                        <span class="region-label">Economy</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Persian Gulf</h3>
+                        <p>A highly strategic body of water surrounded by major oil-producing nations, playing a
+                            critical role in the global energy economy.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal">
+                    <div class="entry-img">
+                        <img src="./images/dead-sea.jpeg" alt="Dead Sea">
+                        <span class="region-label">Landmark</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>The Dead Sea</h3>
+                        <p>A salt lake bordered by Jordan to the east and Israel to the west, known for its extreme
+                            salinity allowing visitors to effortlessly float.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-1">
+                    <div class="entry-img">
+                        <img src="./images/islamic-architecture.jpeg" alt="Islamic Architecture">
+                        <span class="region-label">Culture & Religion</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Islamic Architecture</h3>
+                        <p>Characterized by elegant geometric patterns, magnificent domes, minarets, and profound Arabic
+                            calligraphy seen in mosques and palaces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= EAST ASIA SECTION ================= -->
+    <section id="east-asia" class="division-section east-theme">
+        <div class="div-banner" style="background-image: url('./images/great-wall.jpeg');">
+            <div class="div-banner-overlay"></div>
+            <h2 class="div-title scroll-reveal">East Asia</h2>
+            <p class="div-subtitle scroll-reveal delay-1">Tradition Meets Tomorrow</p>
+        </div>
+
+        <div class="container section-padding">
+            <div class="div-intro scroll-reveal">
+                <p>East Asia is a dynamic region where profound ancient philosophies like Confucianism and Shintoism
+                    exist alongside ultra-modern megacities. Defined by its minimalist aesthetic, red and gold
+                    highlights, iconic landmarks, and elegant traditions such as tea culture and calligraphy.</p>
+            </div>
+
+            <div class="entry-grid">
+                <div class="entry-card scroll-reveal">
+                    <div class="entry-img">
+                        <img src="./images/great-wall.jpeg" alt="Great Wall of China">
+                        <span class="region-label">Landmark</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Great Wall of China</h3>
+                        <p>An ancient series of walls and fortifications built across historical northern borders to
+                            protect Chinese empires from nomadic invasions.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-1">
+                    <div class="entry-img">
+                        <img src="./images/mount-fuji.jpeg" alt="Mount Fuji">
+                        <span class="region-label">Geography</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Mount Fuji</h3>
+                        <p>Japan's tallest peak and a sacred cultural symbol. This iconic stratovolcano frequently
+                            appears in art, literature, and religious traditions.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-2">
+                    <div class="entry-img">
+                        <img src="./images/hanbok.jpeg" alt="Hanbok">
+                        <span class="region-label">Clothing</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Hanbok</h3>
+                        <p>Traditional Korean attire characterized by vibrant colors and simple, elegant lines,
+                            traditionally worn during festivals and celebrations.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal">
+                    <div class="entry-img">
+                        <img src="./images/calligraphy.jpeg" alt="Calligraphy">
+                        <span class="region-label">Art & Tradition</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Calligraphy & Confucianism</h3>
+                        <p>The highly revered visual art of writing, deeply intertwined with Confucian philosophies
+                            emphasizing harmony, discipline, and scholarly pursuit.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-1">
+                    <div class="entry-img">
+                        <img src="./images/shinto-shrine.jpeg" alt="Shinto Shrine">
+                        <span class="region-label">Religion</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Shinto Shrines</h3>
+                        <p>Structures built to house kami (spirits/gods) in Japan's indigenous religion, recognized by
+                            iconic vermilion torii gates and serene forest settings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SOUTH ASIA SECTION ================= -->
+    <section id="south-asia" class="division-section south-theme">
+        <div class="div-banner" style="background-image: url('./images/taj-mahal.jpeg');">
+            <div class="div-banner-overlay"></div>
+            <h2 class="div-title scroll-reveal">South Asia</h2>
+            <p class="div-subtitle scroll-reveal delay-1">Vibrant Diversity</p>
+        </div>
+
+        <div class="container section-padding">
+            <div class="div-intro scroll-reveal">
+                <p>South Asia is a subcontinent bursting with vibrant colors, diverse linguistic groups, and intense
+                    monsoon seasons. It is the birthplace of Hinduism, adorned with intricate temples, aromatic spice
+                    markets, and deeply spiritual traditions that permeate daily life.</p>
+            </div>
+
+            <div class="entry-grid">
+                <div class="entry-card scroll-reveal">
+                    <div class="entry-img">
+                        <img src="./images/himalayas.jpeg" alt="Himalayas">
+                        <span class="region-label">Geography</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>The Himalayas</h3>
+                        <p>The highest mountain range in the world, stretching across several nations and profoundly
+                            influencing the climate and culture of the subcontinent.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-1">
+                    <div class="entry-img">
+                        <img src="./images/ganges-river.jpeg" alt="Ganges River">
+                        <span class="region-label">Landmark & Religion</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Ganges River & Hinduism</h3>
+                        <p>A sacred river in Hinduism, providing a lifeline for millions. It is central to many
+                            religious rituals, festivals, and spiritual cleansings.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-2">
+                    <div class="entry-img">
+                        <img src="./images/taj-mahal.jpeg" alt="Taj Mahal">
+                        <span class="region-label">Architecture</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Taj Mahal</h3>
+                        <p>An ivory-white marble mausoleum in India, regarded as a masterpiece of architectural symmetry
+                            and a universal symbol of enduring love.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal">
+                    <div class="entry-img">
+                        <img src="./images/saree.jpeg" alt="Saree">
+                        <span class="region-label">Clothing</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Saree</h3>
+                        <p>A traditional garment worn by women in South Asia, consisting of a continuous drape varying
+                            from five to nine yards, representing elegance and heritage.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-1">
+                    <div class="entry-img">
+                        <img src="./images/bollywood.jpeg" alt="Bollywood">
+                        <span class="region-label">Culture</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Bollywood & Festivals</h3>
+                        <p>The massive Hindi cinema industry known for vibrant musicals, paralleling the region's grand,
+                            colorful festivals like Diwali and Holi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SOUTHEAST ASIA SECTION ================= -->
+    <section id="southeast-asia" class="division-section southeast-theme">
+        <div class="div-banner" style="background-image: url('./images/angkor-wat.jpeg');">
+            <div class="div-banner-overlay"></div>
+            <h2 class="div-title scroll-reveal">Southeast Asia</h2>
+            <p class="div-subtitle scroll-reveal delay-1">Tropical Tapestry</p>
+        </div>
+
+        <div class="container section-padding">
+            <div class="div-intro scroll-reveal">
+                <p>Defined by tropical landscapes, the historic spice trade, and winding river systems, Southeast Asia
+                    is incredibly culturally varied. The region exhibits deep Buddhist influences alongside diverse
+                    indigenous traditions, spectacular rice terraces, floating markets, and intricate traditional
+                    textiles.</p>
+            </div>
+
+            <div class="entry-grid">
+                <div class="entry-card scroll-reveal">
+                    <div class="entry-img">
+                        <img src="./images/asean.jpeg" alt="ASEAN">
+                        <span class="region-label">Politics & Unity</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>ASEAN</h3>
+                        <p>The Association of Southeast Asian Nations promotes economic growth, peace, and cultural
+                            collaboration across the ten diverse member states.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-1">
+                    <div class="entry-img">
+                        <img src="./images/angkor-wat.jpeg" alt="Angkor Wat">
+                        <span class="region-label">Architecture</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Angkor Wat</h3>
+                        <p>A magnificent temple complex in Cambodia, originally built as a Hindu temple for the Khmer
+                            Empire and later transforming into a Buddhist site.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-2">
+                    <div class="entry-img">
+                        <img src="./images/mekong-river.jpeg" alt="Mekong River">
+                        <span class="region-label">Geography</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Mekong River</h3>
+                        <p>A trans-boundary river forming the economic and ecological lifeblood of several Southeast
+                            Asian countries, supporting unique ecosystems and floating markets.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal">
+                    <div class="entry-img">
+                        <img src="./images/rice-terraces.jpeg" alt="Rice Terraces">
+                        <span class="region-label">Agriculture</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Rice Terraces</h3>
+                        <p>Spectacular carved mountain landscapes, reflecting centuries-old agricultural traditions and
+                            the profound connection between the people and the land.</p>
+                    </div>
+                </div>
+                <div class="entry-card scroll-reveal delay-1">
+                    <div class="entry-img">
+                        <img src="./images/batik.jpeg" alt="Batik">
+                        <span class="region-label">Tradition & Art</span>
+                    </div>
+                    <div class="entry-content">
+                        <h3>Batik & Traditional Dances</h3>
+                        <p>A sophisticated wax-resist dyeing technique resulting in intricate textile patterns, often
+                            worn during the region's graceful, story-telling traditional dances.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONCLUSION / REFLECTION ================= -->
+    <section id="conclusion" class="section-padding bg-light">
+        <div class="container text-center">
+            <span class="eyebrow text-crimson">Final Thoughts</span>
+            <h2 class="section-title text-navy">Reflection</h2>
+
+            <div class="reflection-box scroll-reveal">
+                <i class="fas fa-quote-left quote-icon text-gold"></i>
+                <p class="reflection-text">Through the creation of this visual dictionary, I discovered that Asia is not
+                    merely a geographic location, but a complex mosaic of human history. The project highlighted how
+                    deeply intertwined geography, religion, and culture are within each division. Understanding these
+                    five divisions has profoundly expanded my worldview, showcasing how diverse traditions survive and
+                    evolve in the modern era.</p>
+
+                <p class="reflection-text">The East Asia division proved to be the most captivating to me. The striking
+                    balance between preserving deeply rooted traditions—such as Shintoism and Confucianism—and embracing
+                    leading-edge technological advancement is uniquely fascinating. It serves as a perfect example of
+                    how the past and the future can coexist harmoniously.</p>
+                <i class="fas fa-quote-right quote-icon text-gold"></i>
+            </div>
+
+            <div class="inspirational-quote scroll-reveal delay-2">
+                "Our diversity is our strength; Asia is a tapestry woven from the threads of countless unique cultures."
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= REFERENCES ================= -->
+    <section id="references" class="section-padding">
+        <div class="container">
+            <div class="text-center scroll-reveal">
+                <span class="eyebrow text-crimson">Citations</span>
+                <h2 class="section-title text-navy">Academic <span>References</span></h2>
+            </div>
+
+            <div class="ref-grid">
+                <div class="ref-card scroll-reveal">
+                    <h4><i class="fas fa-book"></i> Information Sources</h4>
+                    <ul>
+                        <li>National Geographic Education - Asian Geography</li>
+                        <li>Encyclopaedia Britannica - Asian History & Culture</li>
+                        <li>Asian Art Museum Documentaries & Archives</li>
+                        <li>World History Encyclopedia</li>
+                    </ul>
+                </div>
+                <div class="ref-card scroll-reveal delay-1">
+                    <h4><i class="fas fa-camera"></i> Image Sources</h4>
+                    <ul>
+                        <li>Unsplash (Royalty-Free High Resolution Imagery)</li>
+                        <li>Wikimedia Commons (Historical & Cultural References)</li>
+                        <li>Pexels Photography</li>
+                    </ul>
+                </div>
+                <div class="ref-card scroll-reveal delay-2">
+                    <h4><i class="fas fa-graduation-cap"></i> Educational Tools</h4>
+                    <ul>
+                        <li>SSM104 Asian Studies Course Materials</li>
+                        <li>Google Fonts (Typography: Playfair Display, Poppins)</li>
+                        <li>FontAwesome (Iconography)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>Division of <span>Asia</span></h2>
+                    <p>A Digital Visual Dictionary Magazine Project</p>
+                </div>
+                <div class="footer-social">
+                    <p class="footer-course">SSM104 1CEDSB</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="footer-year">2026</span> Digital Project by Ynnah Morales. Submitted to Instructor
+                    Celestino Millanes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
